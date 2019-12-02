@@ -12,7 +12,8 @@
         "2performant/2performant-php": "^1.0",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.2",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "symfony/dom-crawler": "^5.0"
     },
     "require-dev": {
         "facade/ignition": "^1.4",

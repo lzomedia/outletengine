@@ -21,6 +21,15 @@ class ProductFeed extends \TPerformant\API\Model\ProductFeed
 
 
     /**
+     * @param mixed $program
+     */
+    public function setProgram($program)
+    {
+        $this->program = $program;
+    }
+
+
+    /**
      * @return mixed
      */
     public function getName()
