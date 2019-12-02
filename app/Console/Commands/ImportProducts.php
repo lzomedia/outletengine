@@ -39,7 +39,7 @@ class ImportProducts extends Command
     public function handle()
     {
 
-        $me = new Affiliate('bogdan.izdrail@gmail.com', 'garcelino87#'); // fill in with your own credentials
+        $me = new Affiliate('bogdan.izdrail@gmail.com', ''); // fill in with your own credentials
 
         //affiliate product feed id
         $productFeeds = $me->getProductFeeds();
